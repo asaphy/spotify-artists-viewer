@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8D37BBBF1D944EF2006BCB6E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D37BBBE1D944EF2006BCB6E /* AppDelegate.swift */; };
+		8D37BBC11D944EF2006BCB6E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D37BBC01D944EF2006BCB6E /* ViewController.swift */; };
+		8D37BBC41D944EF2006BCB6E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D37BBC21D944EF2006BCB6E /* Main.storyboard */; };
+		8D37BBC61D944EF2006BCB6E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D37BBC51D944EF2006BCB6E /* Assets.xcassets */; };
+		8D37BBC91D944EF2006BCB6E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D37BBC71D944EF2006BCB6E /* LaunchScreen.storyboard */; };
+		8D37BBD41D944EF2006BCB6E /* Spotify_Artists_ViewerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D37BBD31D944EF2006BCB6E /* Spotify_Artists_ViewerTests.swift */; };
+		8D37BBDF1D944EF2006BCB6E /* Spotify_Artists_ViewerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D37BBDE1D944EF2006BCB6E /* Spotify_Artists_ViewerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8D37BBD01D944EF2006BCB6E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8D37BBB31D944EF2006BCB6E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8D37BBBA1D944EF2006BCB6E;
+			remoteInfo = "Spotify Artists Viewer";
+		};
+		8D37BBDB1D944EF2006BCB6E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8D37BBB31D944EF2006BCB6E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8D37BBBA1D944EF2006BCB6E;
+			remoteInfo = "Spotify Artists Viewer";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8D37BBBB1D944EF2006BCB6E /* Spotify Artists Viewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Spotify Artists Viewer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D37BBBE1D944EF2006BCB6E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8D37BBC01D944EF2006BCB6E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8D37BBC31D944EF2006BCB6E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8D37BBC51D944EF2006BCB6E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8D37BBC81D944EF2006BCB6E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8D37BBCA1D944EF2006BCB6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D37BBCF1D944EF2006BCB6E /* Spotify Artists ViewerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Spotify Artists ViewerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D37BBD31D944EF2006BCB6E /* Spotify_Artists_ViewerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spotify_Artists_ViewerTests.swift; sourceTree = "<group>"; };
+		8D37BBD51D944EF2006BCB6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D37BBDA1D944EF2006BCB6E /* Spotify Artists ViewerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Spotify Artists ViewerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D37BBDE1D944EF2006BCB6E /* Spotify_Artists_ViewerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spotify_Artists_ViewerUITests.swift; sourceTree = "<group>"; };
+		8D37BBE01D944EF2006BCB6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D37BBB81D944EF2006BCB6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D37BBCC1D944EF2006BCB6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D37BBD71D944EF2006BCB6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8D37BBB21D944EF2006BCB6E = {
+			isa = PBXGroup;
+			children = (
+				8D37BBBD1D944EF2006BCB6E /* Spotify Artists Viewer */,
+				8D37BBD21D944EF2006BCB6E /* Spotify Artists ViewerTests */,
+				8D37BBDD1D944EF2006BCB6E /* Spotify Artists ViewerUITests */,
+				8D37BBBC1D944EF2006BCB6E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8D37BBBC1D944EF2006BCB6E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D37BBBB1D944EF2006BCB6E /* Spotify Artists Viewer.app */,
+				8D37BBCF1D944EF2006BCB6E /* Spotify Artists ViewerTests.xctest */,
+				8D37BBDA1D944EF2006BCB6E /* Spotify Artists ViewerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8D37BBBD1D944EF2006BCB6E /* Spotify Artists Viewer */ = {
+			isa = PBXGroup;
+			children = (
+				8D37BBBE1D944EF2006BCB6E /* AppDelegate.swift */,
+				8D37BBC01D944EF2006BCB6E /* ViewController.swift */,
+				8D37BBC21D944EF2006BCB6E /* Main.storyboard */,
+				8D37BBC51D944EF2006BCB6E /* Assets.xcassets */,
+				8D37BBC71D944EF2006BCB6E /* LaunchScreen.storyboard */,
+				8D37BBCA1D944EF2006BCB6E /* Info.plist */,
+			);
+			path = "Spotify Artists Viewer";
+			sourceTree = "<group>";
+		};
+		8D37BBD21D944EF2006BCB6E /* Spotify Artists ViewerTests */ = {
+			isa = PBXGroup;
+			children = (
+				8D37BBD31D944EF2006BCB6E /* Spotify_Artists_ViewerTests.swift */,
+				8D37BBD51D944EF2006BCB6E /* Info.plist */,
+			);
+			path = "Spotify Artists ViewerTests";
+			sourceTree = "<group>";
+		};
+		8D37BBDD1D944EF2006BCB6E /* Spotify Artists ViewerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8D37BBDE1D944EF2006BCB6E /* Spotify_Artists_ViewerUITests.swift */,
+				8D37BBE01D944EF2006BCB6E /* Info.plist */,
+			);
+			path = "Spotify Artists ViewerUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D37BBBA1D944EF2006BCB6E /* Spotify Artists Viewer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D37BBE31D944EF2006BCB6E /* Build configuration list for PBXNativeTarget "Spotify Artists Viewer" */;
+			buildPhases = (
+				8D37BBB71D944EF2006BCB6E /* Sources */,
+				8D37BBB81D944EF2006BCB6E /* Frameworks */,
+				8D37BBB91D944EF2006BCB6E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Spotify Artists Viewer";
+			productName = "Spotify Artists Viewer";
+			productReference = 8D37BBBB1D944EF2006BCB6E /* Spotify Artists Viewer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8D37BBCE1D944EF2006BCB6E /* Spotify Artists ViewerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D37BBE61D944EF2006BCB6E /* Build configuration list for PBXNativeTarget "Spotify Artists ViewerTests" */;
+			buildPhases = (
+				8D37BBCB1D944EF2006BCB6E /* Sources */,
+				8D37BBCC1D944EF2006BCB6E /* Frameworks */,
+				8D37BBCD1D944EF2006BCB6E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8D37BBD11D944EF2006BCB6E /* PBXTargetDependency */,
+			);
+			name = "Spotify Artists ViewerTests";
+			productName = "Spotify Artists ViewerTests";
+			productReference = 8D37BBCF1D944EF2006BCB6E /* Spotify Artists ViewerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8D37BBD91D944EF2006BCB6E /* Spotify Artists ViewerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D37BBE91D944EF2006BCB6E /* Build configuration list for PBXNativeTarget "Spotify Artists ViewerUITests" */;
+			buildPhases = (
+				8D37BBD61D944EF2006BCB6E /* Sources */,
+				8D37BBD71D944EF2006BCB6E /* Frameworks */,
+				8D37BBD81D944EF2006BCB6E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8D37BBDC1D944EF2006BCB6E /* PBXTargetDependency */,
+			);
+			name = "Spotify Artists ViewerUITests";
+			productName = "Spotify Artists ViewerUITests";
+			productReference = 8D37BBDA1D944EF2006BCB6E /* Spotify Artists ViewerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8D37BBB31D944EF2006BCB6E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Asaph Yuan";
+				TargetAttributes = {
+					8D37BBBA1D944EF2006BCB6E = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = THP5EV5EJ9;
+						ProvisioningStyle = Automatic;
+					};
+					8D37BBCE1D944EF2006BCB6E = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = THP5EV5EJ9;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8D37BBBA1D944EF2006BCB6E;
+					};
+					8D37BBD91D944EF2006BCB6E = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = THP5EV5EJ9;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8D37BBBA1D944EF2006BCB6E;
+					};
+				};
+			};
+			buildConfigurationList = 8D37BBB61D944EF2006BCB6E /* Build configuration list for PBXProject "Spotify Artists Viewer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8D37BBB21D944EF2006BCB6E;
+			productRefGroup = 8D37BBBC1D944EF2006BCB6E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D37BBBA1D944EF2006BCB6E /* Spotify Artists Viewer */,
+				8D37BBCE1D944EF2006BCB6E /* Spotify Artists ViewerTests */,
+				8D37BBD91D944EF2006BCB6E /* Spotify Artists ViewerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D37BBB91D944EF2006BCB6E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D37BBC91D944EF2006BCB6E /* LaunchScreen.storyboard in Resources */,
+				8D37BBC61D944EF2006BCB6E /* Assets.xcassets in Resources */,
+				8D37BBC41D944EF2006BCB6E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D37BBCD1D944EF2006BCB6E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D37BBD81D944EF2006BCB6E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D37BBB71D944EF2006BCB6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D37BBC11D944EF2006BCB6E /* ViewController.swift in Sources */,
+				8D37BBBF1D944EF2006BCB6E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D37BBCB1D944EF2006BCB6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D37BBD41D944EF2006BCB6E /* Spotify_Artists_ViewerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D37BBD61D944EF2006BCB6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D37BBDF1D944EF2006BCB6E /* Spotify_Artists_ViewerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8D37BBD11D944EF2006BCB6E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8D37BBBA1D944EF2006BCB6E /* Spotify Artists Viewer */;
+			targetProxy = 8D37BBD01D944EF2006BCB6E /* PBXContainerItemProxy */;
+		};
+		8D37BBDC1D944EF2006BCB6E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8D37BBBA1D944EF2006BCB6E /* Spotify Artists Viewer */;
+			targetProxy = 8D37BBDB1D944EF2006BCB6E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8D37BBC21D944EF2006BCB6E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8D37BBC31D944EF2006BCB6E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8D37BBC71D944EF2006BCB6E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8D37BBC81D944EF2006BCB6E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8D37BBE11D944EF2006BCB6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8D37BBE21D944EF2006BCB6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8D37BBE41D944EF2006BCB6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = THP5EV5EJ9;
+				INFOPLIST_FILE = "Spotify Artists Viewer/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "io.intrepid.Spotify-Artists-Viewer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		8D37BBE51D944EF2006BCB6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = THP5EV5EJ9;
+				INFOPLIST_FILE = "Spotify Artists Viewer/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "io.intrepid.Spotify-Artists-Viewer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		8D37BBE71D944EF2006BCB6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = THP5EV5EJ9;
+				INFOPLIST_FILE = "Spotify Artists ViewerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "io.intrepid.Spotify-Artists-ViewerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Spotify Artists Viewer.app/Spotify Artists Viewer";
+			};
+			name = Debug;
+		};
+		8D37BBE81D944EF2006BCB6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = THP5EV5EJ9;
+				INFOPLIST_FILE = "Spotify Artists ViewerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "io.intrepid.Spotify-Artists-ViewerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Spotify Artists Viewer.app/Spotify Artists Viewer";
+			};
+			name = Release;
+		};
+		8D37BBEA1D944EF2006BCB6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = THP5EV5EJ9;
+				INFOPLIST_FILE = "Spotify Artists ViewerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "io.intrepid.Spotify-Artists-ViewerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Spotify Artists Viewer";
+			};
+			name = Debug;
+		};
+		8D37BBEB1D944EF2006BCB6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = THP5EV5EJ9;
+				INFOPLIST_FILE = "Spotify Artists ViewerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "io.intrepid.Spotify-Artists-ViewerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Spotify Artists Viewer";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8D37BBB61D944EF2006BCB6E /* Build configuration list for PBXProject "Spotify Artists Viewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D37BBE11D944EF2006BCB6E /* Debug */,
+				8D37BBE21D944EF2006BCB6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8D37BBE31D944EF2006BCB6E /* Build configuration list for PBXNativeTarget "Spotify Artists Viewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D37BBE41D944EF2006BCB6E /* Debug */,
+				8D37BBE51D944EF2006BCB6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8D37BBE61D944EF2006BCB6E /* Build configuration list for PBXNativeTarget "Spotify Artists ViewerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D37BBE71D944EF2006BCB6E /* Debug */,
+				8D37BBE81D944EF2006BCB6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8D37BBE91D944EF2006BCB6E /* Build configuration list for PBXNativeTarget "Spotify Artists ViewerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D37BBEA1D944EF2006BCB6E /* Debug */,
+				8D37BBEB1D944EF2006BCB6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8D37BBB31D944EF2006BCB6E /* Project object */;
+}
